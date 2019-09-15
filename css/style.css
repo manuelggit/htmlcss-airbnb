@@ -11,23 +11,23 @@
   position: relative;
 }
 
+.box {
+  box-sizing: border-box;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+  position: relative;
+  background-size: cover;
+  /* padding: 1%; */
+}
+
 .primobox {
   box-sizing: border-box;
    border-top: 1px solid red;
    border-bottom: 1px solid white;
    border-left: 1px solid red;
    border-right: 1px solid red;
-  position: relative;
-  background-size: cover;
-  /* padding: 1%; */
-}
-
-.interno {
-  box-sizing: border-box;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  border-left: 1px solid red;
-  border-right: 1px solid red;
   position: relative;
   background-size: cover;
   /* padding: 1%; */
@@ -44,7 +44,7 @@
   /* padding: 1%; */
 }
 
- .img {
+.img {
   margin-top: 1%;
   width: 98%;
 }
