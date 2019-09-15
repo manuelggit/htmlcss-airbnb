@@ -4,20 +4,33 @@
   box-sizing: border-box;
 }
 
-.main {
-  position: relative;
-}
-
 .container {
   margin: 5% 20%;
-  text-align: center;
+  height: 100vh;
+  position: relative;
 }
 
 .box {
   box-sizing: border-box;
   border: 1px solid red;
+  position: relative;
+  background-size: cover;
+
 }
 
 .img {
   width: 100%;
+}
+
+h1 {
+  position: absolute;
+  font-size: 40px;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* text-shadow: 2px 2px 50px black; */
+  text-shadow: -1px 3px red, 3px 1px red, 1px 3px red, 3px -1px red;
+  text-decoration: inherit;
+  font-family: arial;
 }
