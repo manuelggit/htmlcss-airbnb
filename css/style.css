@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  position: relative;
+}
+
+.container {
+  margin: 5% 20%;
+  text-align: center;
+}
+
+.box {
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+.img {
+  width: 100%;
+}
